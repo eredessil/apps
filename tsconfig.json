@@ -16,9 +16,19 @@
 
     /* Linting */
     "strict": true,
+    "declaration": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "types": ["vite-plugin-svgr/client", "@reduxjs/toolkit/query/react"],
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@api/*": ["./src/api/*"],
+      "@theme/*": ["./src/styles/*"],
+      "@i18n/*": ["./src/i18n/*"],
+      "@icons/*": ["./src/assets/icons/*"]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

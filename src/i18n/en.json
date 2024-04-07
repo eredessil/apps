@@ -1,0 +1,5 @@
+{
+  "user_stories_list_title": "Please check your user stories:",
+  "story_points_short": "{{points}} SPs",
+  "user_stories_list_empty": "Select a feature to see related user stories."
+}

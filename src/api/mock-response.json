@@ -1,0 +1,689 @@
+{
+  "userPrompt": "Yolo",
+  "concept": {
+    "title": "Real-time Adventure Suggester",
+    "description": "YOLO (You Only Live Once) is designed to push users out of their comfort zone by suggesting spontaneous and unique activities. By considering local events, weather conditions, and user preferences, the app offers personalized adventure recommendations. Whether it's a pop-up gallery, a secret concert, or a last-minute road trip, Yolo ensures you're making the most of every moment.",
+    "id": "1"
+  },
+  "features": [
+    {
+      "title": "Personalized Adventure Feed",
+      "description": "A curated list of adventurous activities tailored to each user's interests and past activity preferences. This feed updates in real-time, showcasing the most relevant and exciting suggestions.",
+      "id": "1"
+    },
+    {
+      "title": "Local Events and Weather Integration",
+      "description": "The app integrates with local event calendars and weather forecasts to suggest activities. It ensures recommendations are not only interesting but also feasible, considering the current weather conditions.",
+      "id": "2"
+    },
+    {
+      "title": "Spontaneity Booster",
+      "description": "A special feature that occasionally sends push notifications for highly unique or once-in-a-lifetime activities. These suggestions are designed to encourage users to try something new and unexpected.",
+      "id": "3"
+    },
+    {
+      "title": "Social Sharing and Planning",
+      "description": "Users can share their adventurous plans or suggestions with friends or in app groups. This feature facilitates social outings and group adventures, making it easy to coordinate with friends.",
+      "id": "4"
+    },
+    {
+      "title": "Experience Review System",
+      "description": "A platform where users can leave feedback on their adventures, including photos and reviews. This helps others in the community make informed decisions and encourages a trusted sharing environment.",
+      "id": "5"
+    }
+  ],
+  "userStories": [
+    {
+      "id": "US1",
+      "title": "User Registration",
+      "description": "As a user, I want to register for an account so I can receive personalized adventure suggestions.",
+      "hours": 8,
+      "storyPoints": 3,
+      "priority": "high",
+      "isIncludedInScope": true,
+      "featureId": "1"
+    },
+    {
+      "id": "US2",
+      "title": "Profile Customization",
+      "description": "As a user, I want to customize my profile with interests and preferences to receive more personalized adventure feed.",
+      "hours": 12,
+      "storyPoints": 5,
+      "priority": "high",
+      "isIncludedInScope": true,
+      "featureId": "1"
+    },
+    {
+      "id": "US3",
+      "title": "Real-Time Adventure Feed",
+      "description": "As a user, I want to view a constantly updated feed of adventures that match my interests and past activity preferences.",
+      "hours": 24,
+      "storyPoints": 8,
+      "priority": "high",
+      "isIncludedInScope": true,
+      "featureId": "1"
+    },
+    {
+      "id": "US4",
+      "title": "Weather Integration",
+      "description": "As a user, I want the app to consider current weather conditions in my area when suggesting outdoor activities.",
+      "hours": 16,
+      "storyPoints": 5,
+      "priority": "normal",
+      "isIncludedInScope": true,
+      "featureId": "1"
+    },
+    {
+      "id": "US5",
+      "title": "Local Events Discovery",
+      "description": "As a user, I want the app to suggest local events happening near me that align with my interests.",
+      "hours": 16,
+      "storyPoints": 5,
+      "priority": "normal",
+      "isIncludedInScope": true,
+      "featureId": "1"
+    },
+    {
+      "id": "US6",
+      "title": "Adventure Bookmarking",
+      "description": "As a user, I want to bookmark adventures I find interesting to look back at them later.",
+      "hours": 8,
+      "storyPoints": 3,
+      "priority": "normal",
+      "isIncludedInScope": true,
+      "featureId": "1"
+    },
+    {
+      "id": "US9",
+      "title": "Adventure Detail Insights",
+      "description": "As a user, I want to view detailed descriptions, requirements, and logistics information about each adventure.",
+      "hours": 20,
+      "storyPoints": 8,
+      "priority": "high",
+      "isIncludedInScope": true,
+      "featureId": "1"
+    },
+    {
+      "id": "US10",
+      "title": "Interactive Map View",
+      "description": "As a user, I want to explore adventures on an interactive map, showing locations of suggested activities near me.",
+      "hours": 24,
+      "storyPoints": 8,
+      "priority": "normal",
+      "isIncludedInScope": true,
+      "featureId": "1"
+    },
+    {
+      "id": "US11",
+      "title": "Last-Minute Adventure Alerts",
+      "description": "As a user, I want to receive push notifications for last-minute adventure opportunities based on my location and interests.",
+      "hours": 12,
+      "storyPoints": 5,
+      "priority": "high",
+      "isIncludedInScope": true,
+      "featureId": "1"
+    },
+    {
+      "id": "SSP01",
+      "title": "Create Friends List",
+      "description": "As a user, I want to create and manage a list of friends within the app so I can easily share adventures with them.",
+      "hours": 16,
+      "priority": "high",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "id": "SSP02",
+      "title": "Group Creation and Management",
+      "description": "As a user, I want to create and manage groups for planning adventures, so that we can share ideas and coordinate more efficiently.",
+      "hours": 24,
+      "priority": "high",
+      "storyPoints": 13,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "id": "SSP03",
+      "title": "Share Adventure with Friends/Groups",
+      "description": "As a user, I want to share adventure plans with my friends or groups directly from the adventure detail page.",
+      "hours": 8,
+      "priority": "high",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "id": "SSP04",
+      "title": "Adventure Planning Polls",
+      "description": "As a user, I want to create polls within a group to decide on which adventure to embark on, making decision-making easier and more democratic.",
+      "hours": 20,
+      "priority": "normal",
+      "storyPoints": 13,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "id": "SSP05",
+      "title": "In-App Messaging",
+      "description": "As a user, I want to communicate with my friends and groups via in-app messaging to discuss and plan adventures.",
+      "hours": 40,
+      "priority": "high",
+      "storyPoints": 13,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "id": "SSP06",
+      "title": "Calendar Integration",
+      "description": "As a user, I want the app to integrate with my calendar so we can easily plan adventures based on everyone's availability.",
+      "hours": 32,
+      "priority": "normal",
+      "storyPoints": 13,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "id": "SSP07",
+      "title": "Adventure Invitations",
+      "description": "As a user, I want to send adventure invitations to my friends or groups and see who has accepted or declined.",
+      "hours": 12,
+      "priority": "high",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "id": "SSP09",
+      "title": "Live Location Sharing",
+      "description": "As a user, I want to share my live location with friends or group members for the duration of the adventure for safety and coordination purposes.",
+      "hours": 16,
+      "priority": "normal",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "id": "SSP10",
+      "title": "Shared Adventure Itinerary",
+      "description": "As a user, I want to build and share an adventure itinerary with my group, including times, locations, and other logistics.",
+      "hours": 24,
+      "priority": "high",
+      "storyPoints": 13,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "id": "SSP12",
+      "title": "Expense Splitting",
+      "description": "As a user, I want to track and split expenses for shared adventures within the app, making financial logistics easier.",
+      "hours": 24,
+      "priority": "normal",
+      "storyPoints": 13,
+      "isIncludedInScope": true,
+      "featureId": "4"
+    },
+    {
+      "title": "Enable/Disable Spontaneity Booster Notifications",
+      "description": "As a user, I want to have the option to enable or disable Spontaneity Booster push notifications, so that I can control how often I receive spontaneous adventure suggestions.",
+      "id": "US1",
+      "hours": 8,
+      "priority": "high",
+      "storyPoints": 3,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "title": "Customize Notification Preferences",
+      "description": "As a user, I want to customize the types of Spontaneity Booster notifications I receive based on my interests, availability, and adventurous level, to ensure they align with what I'm looking for.",
+      "id": "US2",
+      "hours": 12,
+      "priority": "high",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "title": "Instant Booking from Notification",
+      "description": "As a user, I want to immediately book or sign up for the suggested adventure directly from the Spontaneity Booster notification, to capitalize on the opportunity without delay.",
+      "id": "US3",
+      "hours": 16,
+      "priority": "normal",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "title": "Feedback on Suggestion Relevance",
+      "description": "As a user, after dismissing or accepting a Spontaneity Booster suggestion, I want to provide feedback on the relevance of the suggestion, to improve future recommendations.",
+      "id": "US4",
+      "hours": 10,
+      "priority": "normal",
+      "storyPoints": 3,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "title": "Spontaneity Level Setting",
+      "description": "As a user, I want to set my spur-of-the-moment comfort level (low, medium, high), so the Spontaneity Booster can adjust the adventurousness of its suggestions accordingly.",
+      "id": "US5",
+      "hours": 12,
+      "priority": "high",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "title": "Time-Sensitive Activity Alerts",
+      "description": "As a user, I want to receive time-sensitive alerts for activities that require immediate action or decision, to ensure I don’t miss out on fleeting opportunities.",
+      "id": "US7",
+      "hours": 20,
+      "priority": "high",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "title": "Surprise Me Feature",
+      "description": "As a user, I want a 'Surprise Me' option within the Spontaneity Booster feature that randomly selects an adventure for me, to truly embrace the essence of spontaneity.",
+      "id": "US8",
+      "hours": 24,
+      "priority": "normal",
+      "storyPoints": 13,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "title": "Limited Time Offer Presentation",
+      "description": "As a user, I want the Spontaneity Booster notifications for once-in-a-lifetime activities to highlight the limited availability, to urge me towards taking immediate action.",
+      "id": "US10",
+      "hours": 10,
+      "priority": "normal",
+      "storyPoints": 3,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "title": "Adventure Matching Based on Past Activities",
+      "description": "As a user, I want the Spontaneity Booster to consider my past adventure activities when making new suggestions, to personalize the experience based on what I have enjoyed before.",
+      "id": "US11",
+      "hours": 18,
+      "priority": "high",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "title": "Visual Countdown for Timed Decisions",
+      "description": "As a user, I want Spontaneity Booster notifications to include a visual countdown for activities that require quick decisions, to visually emphasize the urgency.",
+      "id": "US12",
+      "hours": 12,
+      "priority": "normal",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "3"
+    },
+    {
+      "id": "URS-01",
+      "title": "Submit an Adventure Review",
+      "description": "As a user, I want to submit a review for an adventure I've participated in, including my rating and textual feedback, so that I can share my experience with the community.",
+      "hours": 12,
+      "priority": "high",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "5"
+    },
+    {
+      "id": "URS-02",
+      "title": "Upload Photos with Review",
+      "description": "As a user, I want to upload photos along with my adventure review, to visually share my experience with others.",
+      "hours": 16,
+      "priority": "high",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "5"
+    },
+    {
+      "id": "URS-03",
+      "title": "View Adventure Reviews",
+      "description": "As a user, I want to view reviews and ratings of adventures I'm interested in, to make more informed decisions about participating.",
+      "hours": 8,
+      "priority": "high",
+      "storyPoints": 3,
+      "isIncludedInScope": true,
+      "featureId": "5"
+    },
+    {
+      "id": "URS-04",
+      "title": "Edit My Submitted Review",
+      "description": "As a user, I want to be able to edit my previously submitted review in case I have additional thoughts or corrections to add.",
+      "hours": 8,
+      "priority": "normal",
+      "storyPoints": 3,
+      "isIncludedInScope": true,
+      "featureId": "5"
+    },
+    {
+      "id": "URS-05",
+      "title": "Delete My Submitted Review",
+      "description": "As a user, I want to delete a review I've submitted in case I no longer want it to be visible to the community.",
+      "hours": 4,
+      "priority": "normal",
+      "storyPoints": 2,
+      "isIncludedInScope": true,
+      "featureId": "5"
+    },
+    {
+      "id": "URS-06",
+      "title": "Filter Reviews by Ratings",
+      "description": "As a user, I want to filter adventure reviews by rating scores, to quickly find the top-rated adventures.",
+      "hours": 12,
+      "priority": "normal",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "5"
+    },
+    {
+      "id": "URS-08",
+      "title": "Report Inappropriate Reviews",
+      "description": "As a user, I want to report reviews that are inappropriate or violate the community guidelines, to maintain a positive environment.",
+      "hours": 16,
+      "priority": "normal",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "5"
+    },
+    {
+      "id": "URS-10",
+      "title": "Review Like Button",
+      "description": "As a user, I want to 'like' reviews that I find useful or enjoyable, as a way of showing appreciation and helping others identify helpful reviews.",
+      "hours": 12,
+      "priority": "normal",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "5"
+    },
+    {
+      "id": "URS-11",
+      "title": "Reply to Reviews",
+      "description": "As a user, I want to reply to reviews, to ask questions or engage in discussions about adventures.",
+      "hours": 16,
+      "priority": "normal",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "5"
+    },
+    {
+      "id": "LUW-01",
+      "title": "Local Events API Integration",
+      "description": "As a developer, I want to integrate the app with popular local events APIs to fetch current events data, ensuring users receive up-to-date suggestions.",
+      "hours": 32,
+      "priority": "high",
+      "storyPoints": 13,
+      "isIncludedInScope": true,
+      "featureId": "2"
+    },
+    {
+      "id": "LUW-02",
+      "title": "Weather API Integration",
+      "description": "As a developer, I want to integrate the app with a reliable weather forecast API to fetch real-time weather data for user locations, enabling personalized activity suggestions.",
+      "hours": 24,
+      "priority": "high",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "2"
+    },
+    {
+      "id": "LUW-03",
+      "title": "Local Events Filtering",
+      "description": "As a user, I want to filter local events based on my interests, preferences, and weather conditions, so I can find activities that match my interests and are feasible.",
+      "hours": 16,
+      "priority": "normal",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "2"
+    },
+    {
+      "id": "LUW-04",
+      "title": "Dynamic Suggestions Based on Weather",
+      "description": "As a user, I want the app to dynamically update adventure suggestions based on real-time weather conditions to ensure the activities are feasible and enjoyable.",
+      "hours": 20,
+      "priority": "normal",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "2"
+    },
+    {
+      "id": "LUW-05",
+      "title": "User Preference Integration in Suggestions",
+      "description": "As a user, I want my set preferences and interests to be considered along with local events and weather conditions when the app suggests adventures.",
+      "hours": 12,
+      "priority": "normal",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "2"
+    },
+    {
+      "id": "LUW-07",
+      "title": "Push Notifications for Favorable Conditions",
+      "description": "As a user, I want to receive push notifications when the weather conditions and local events align with my interests, encouraging spontaneous adventures.",
+      "hours": 24,
+      "priority": "high",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "2"
+    },
+    {
+      "id": "LUW-08",
+      "title": "Weather Condition Descriptions",
+      "description": "As a user, I want to see detailed descriptions of weather conditions and how they might affect potential activities, helping me make informed choices.",
+      "hours": 16,
+      "priority": "normal",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "2"
+    },
+    {
+      "id": "LUW-10",
+      "title": "Real-time User Location Services",
+      "description": "As a developer, I want to implement real-time location services so that the app can offer the most relevant local event and weather information based on the user's current location.",
+      "hours": 24,
+      "priority": "high",
+      "storyPoints": 8,
+      "isIncludedInScope": true,
+      "featureId": "2"
+    },
+    {
+      "id": "LUW-12",
+      "title": "Customizable Weather & Event Alerts",
+      "description": "As a user, I want the option to customize alerts for local events and weather conditions based on my preferences, so I receive notifications that truly interest me.",
+      "hours": 16,
+      "priority": "normal",
+      "storyPoints": 5,
+      "isIncludedInScope": true,
+      "featureId": "2"
+    }
+  ],
+  "requirements": {
+    "functional": [
+      {
+        "title": "User Registration",
+        "description": "Allow users to register an account using email, social media logins, or mobile numbers to access the app's features.",
+        "id": "FR1"
+      },
+      {
+        "title": "Profile Customization",
+        "description": "Enable users to customize their profiles by adding personal information, preferences, and interests to tailor adventure suggestions.",
+        "id": "FR2"
+      },
+      {
+        "title": "Real-Time Adventure Feed",
+        "description": "Provide a constantly updating feed of adventurous activities tailored to the user's preferences and local conditions.",
+        "id": "FR3"
+      },
+      {
+        "title": "Weather Integration",
+        "description": "Integrate real-time weather data to offer adventure suggestions that are feasible based on current weather conditions.",
+        "id": "FR4"
+      },
+      {
+        "title": "Local Events Discovery",
+        "description": "Allow users to discover local events and activities happening around them, categorized by interest or type.",
+        "id": "FR5"
+      },
+      {
+        "title": "Adventure Bookmarking",
+        "description": "Enable users to bookmark adventures they are interested in for easy access or future reference.",
+        "id": "FR6"
+      },
+      {
+        "title": "Adventure Detail Insights",
+        "description": "Provide detailed information on each adventure suggestion, including cost, location, duration, and required equipment.",
+        "id": "FR7"
+      },
+      {
+        "title": "Interactive Map View",
+        "description": "Offer an interactive map displaying adventure locations, enabling users to explore adventures based on geographical areas.",
+        "id": "FR8"
+      },
+      {
+        "title": "Last-Minute Adventure Alerts",
+        "description": "Send push notifications for last-minute or time-sensitive adventure opportunities that match user preferences.",
+        "id": "FR9"
+      },
+      {
+        "title": "Social Sharing and Planning",
+        "description": "Facilitate sharing of adventures with friends or in-app groups, and planning of group activities including event details and participation lists.",
+        "id": "FR10"
+      },
+      {
+        "title": "Experience Review System",
+        "description": "Allow users to submit reviews and photos of their adventures, and to view, like, and comment on others' reviews.",
+        "id": "FR11"
+      },
+      {
+        "title": "Local and Weather Events Integration",
+        "description": "Integrate with local event calendars and weather forecast APIs to dynamically suggest activities based on local events and suitable weather conditions.",
+        "id": "FR12"
+      },
+      {
+        "title": "Spontaneity Booster",
+        "description": "Occasionally surprise users with notifications about unique or once-in-a-lifetime activities, emphasizing spontaneity.",
+        "id": "FR13"
+      },
+      {
+        "title": "Calendar and Live Location Integration",
+        "description": "Enable integration with the device's calendar for scheduling and reminders, and use live location for real-time adventure suggestions and directions.",
+        "id": "FR14"
+      },
+      {
+        "title": "Expense Splitting and Shared Itinerary",
+        "description": "Provide features for expense splitting among participants of an adventure and for creating a shared itinerary that can be accessed by all group members.",
+        "id": "FR15"
+      },
+      {
+        "title": "Notification and Alert Customization",
+        "description": "Allow users to customize the type and frequency of notifications they receive, including weather, event alerts, and spontaneous activity suggestions.",
+        "id": "FR16"
+      },
+      {
+        "title": "User Preference-based Adventure Matching",
+        "description": "Match adventures and suggestions based on user's past activities and stated preferences to enhance the personalization of the app.",
+        "id": "FR17"
+      },
+      {
+        "title": "Instant Booking from Notification",
+        "description": "Offer the capability to instantly book or express interest in an activity directly from the notification alert without needing to open the app.",
+        "id": "FR18"
+      },
+      {
+        "title": "Real-time User Location Services",
+        "description": "Utilize real-time user location tracking to provide spontaneous adventure suggestions nearby and for navigational assistance.",
+        "id": "FR19"
+      },
+      {
+        "title": "Dynamic Suggestions Based on Weather",
+        "description": "Adapt adventure suggestions in real-time based on changing weather conditions to ensure proposals are always feasible.",
+        "id": "FR20"
+      }
+    ],
+    "nonFunctional": [
+      {
+        "id": "nonfunc_web",
+        "storyPoints": 0,
+        "hours": 0,
+        "minImplTier": 0,
+        "minPlatformTier": 0,
+        "title": "Web",
+        "description": "The app should be accessible with a browser "
+      },
+      {
+        "id": "nonfunc_screen_mobile",
+        "storyPoints": 0,
+        "hours": 0,
+        "minImplTier": 0,
+        "title": "Mobile",
+        "description": "The app should be optimized for small screens"
+      }
+    ]
+  },
+  "integration": {
+    "id": "int_appcloud",
+    "title": "Appcloud",
+    "titleLocalizationKey": "items.appcloud.title",
+    "description": "Appcloud data integaration.",
+    "order": 0,
+    "storyPoints": 3,
+    "hours": 8,
+    "minImplTier": 0,
+    "minPlatformTier": 0
+  },
+  "summary": {
+    "title": "Executive Summary: Real-Time Adventure Suggester App - YOLO",
+    "synopsis": "YOLO, a novel app experience designed to invigorate lives with spontaneous adventure suggestions, integrates with local events, weather, and user preferences to create personalized, compelling experiences.",
+    "description": "<p>The Real-Time Adventure Suggester, YOLO (You Only Live Once), stands as a groundbreaking mobile application crafted to revolutionize the way individuals engage with the world around them. By capitalizing on real-time data integration, including local events, weather forecasts, and personalized user preferences, YOLO delivers a bespoke adventure feed. This feed is meticulously curated, offering a range of activities from pop-up galleries to secret concerts, ensuring every user finds excitement tailored to their tastes.</p><p>A standout feature includes a 'Spontaneity Booster', which propels users into once-in-a-lifetime experiences through timely push notifications, fostering an environment of unexpected adventure. Social sharing and planning tools within the app amplify these experiences by facilitating group outings and adventures, making coordination amongst friends seamless. Moreover, a robust experience review system fosters a community of trust and shared discovery, encouraging users to provide feedback and photos from their adventures, aiding others in making informed choices.</p><p>YOLO’s extensive user stories encompass everything from registration and personalized profile customization to real-time adventure feeds and highly interactive maps. With integration such as weather and local events API, YOLO ensures recommendations are both exciting and feasible. Furthermore, features like in-app messaging, adventure invitation, and expense splitting simplify social planning, elevating the group adventure experience. An innovative feature set, including 'Surprise Me' and custom notification preferences, ensures that users have control over the spontaneity level, making every day an opportunity for a new adventure.</p><p>Integrating with Appcloud for seamless data operations, YOLO is a harmonious blend of technology and thrill, promising an enriched, dynamic lifestyle for its users. It is more than just an app; it is a call to adventure, urging users to embrace the spontaneity of life and truly live by the principle of 'You Only Live Once'.</p>"
+  },
+  "estimate": {
+    "implementationTier": {
+      "id": "tier",
+      "createdAt": "2024-02-22T10:37:18.757Z",
+      "updatedAt": "2024-02-22T10:37:18.757Z",
+      "params": {
+        "isActive": true,
+        "name": "XLarge implementation",
+        "level": 5,
+        "numberOfMonths": 12,
+        "monthlyPrices": [
+          {
+            "amount": 46000,
+            "currencyCode": "NOK",
+            "countryCode": "NO"
+          }
+        ],
+        "oneTimePrices": [
+          {
+            "amount": 552000,
+            "currencyCode": "NOK",
+            "countryCode": "NO"
+          }
+        ]
+      }
+    },
+    "platformTier": {
+      "id": "tier",
+      "createdAt": "2024-02-22T10:37:18.757Z",
+      "updatedAt": "2024-02-22T10:37:18.757Z",
+      "params": {
+        "isActive": true,
+        "isPricePrivate": true,
+        "name": "Enterprise",
+        "level": 4,
+        "monthlyPrices": [],
+        "oneTimePrices": []
+      }
+    },
+    "hours": 794,
+    "storyPoints": 330,
+    "estimatedDelivery": "2024-06-20T08:31:43.487Z"
+  }
+}

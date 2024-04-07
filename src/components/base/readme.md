@@ -1,0 +1,1 @@
+`base` folder contains only `styled` `HTML` components for the application. These components are used to build the UI of the application. These components are not connected to the store and do not have any business logic.
